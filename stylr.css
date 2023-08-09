@@ -1,0 +1,129 @@
+#title{
+    background-color: #23B73B;
+    color: #fff;
+}
+body{
+    font-family: 'Montserrat';
+}
+h1 {  font-family: 'Montserrat, sans-serif';  font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+h2{font-family: 'Montserrat-bold'; font-size: 3rem;line-height: 1,5;}
+h3{
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #FFCC01;
+}
+.feature-box{
+    text-align: center;
+}
+p{
+    color: #8f8f88;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    
+
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-itme{
+    padding: 0 18px;
+
+}
+.nav-link{
+    font-size:1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title-image{
+    width: 60%;
+    
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+    
+
+.icon:hover{
+    color:#ff4c68;
+    cursor: pointer;
+    
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+    background-color: red;
+    
+}
+.test-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.prcicing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color:red ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-h{
+    font-family: 'Montserrat-black';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+#footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.a{
+    margin: 20px 10px;
+}
+
+@font-face{font-family:"fontfutura";src:url("https://fonts.googleapis.com/css?family=Open+Sans") format("ttf");font-weight:normal;font-style:normal;}
+a.btn-google{color:#fff}
+.btn{padding:10px 16px;margin:5px;font-size:18px;line-height:1.3333333;border-radius:6px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;font-weight:500;text-decoration:none;display:inline-block}
+.btn:active:focus,.btn:focus{outline:0}
+.btn:focus,.btn:hover{color:#333;text-decoration:none;outline:0}
+.btn:active{outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
+.btn-google{color:#fff;background-color:#111;border-color:#000;padding:15px 16px 5px 40px;position:relative;font-family:fontfutura;font-weight:600}
+.btn-google:focus{color:#fff;background-color:#555;border-color:#000}
+.btn-google:active,.btn-google:hover{color:#fff;background-color:#555;border-color:#000;}
+.btn-google:before{content:"";background-image:url(https://4.bp.blogspot.com/-52U3eP2JDM4/WSkIT1vbUxI/AAAAAAAArQA/iF1BeARv2To-2FGQU7V6UbNPivuv_lccACLcB/s30/nexus2cee_ic_launcher_play_store_new-1.png);background-size:cover;background-repeat:no-repeat;width:30px;height:30px;position:absolute;left:6px;top:50%;margin-top:-15px}
+.btn-google:after{content:"GET IT ON";position:absolute;top:5px;left:40px;font-size:10px;font-weight:400;}
+/*]]>*/
+
